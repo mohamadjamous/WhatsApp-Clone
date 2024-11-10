@@ -10,7 +10,7 @@ val calls = mutableListOf<Call>().apply {
     add(
         Call(
             "Chris Hemsworth",
-            "https://example.com/chris_hemsworth.jpg",
+            "https://media.gqmagazine.fr/photos/665488d44c7a6d119fc49211/1:1/w_1600%2Cc_limit/HemsworthFuriosa.jpg",
             "Yesterday",
             R.drawable.ic_down_incoming
         )
@@ -18,7 +18,7 @@ val calls = mutableListOf<Call>().apply {
     add(
         Call(
             "Robert Downey Jr.",
-            "https://example.com/robert_downey.jpg",
+            "https://cdn.britannica.com/99/254199-050-98CF4E04/Robert-Downey-JR-UK-premier-Oppenheimer-movie-July-2023.jpg",
             "Friday",
             R.drawable.ic_down_missed
         )
@@ -26,7 +26,7 @@ val calls = mutableListOf<Call>().apply {
     add(
         Call(
             "Scarlett Johansson",
-            "https://example.com/scarlett_johansson.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%2C_2%29.jpg/800px-Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%2C_2%29.jpg",
             "Thursday",
             R.drawable.ic_down_missed
         )
@@ -34,7 +34,7 @@ val calls = mutableListOf<Call>().apply {
     add(
         Call(
             "Mark Ruffalo",
-            "https://example.com/mark_ruffalo.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaR6CiG2r9ZR0JuXvA_bUnwlnoRhb7AIR6Dw&s",
             "Monday",
             R.drawable.ic_down_incoming
         )
@@ -42,7 +42,7 @@ val calls = mutableListOf<Call>().apply {
     add(
         Call(
             "Chris Evans",
-            "https://example.com/chris_evans.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhKEvXXHKuOKiW9Ggv4ugczJ5WOf2BY1pPhw&s",
             "22/04/20",
             R.drawable.ic_down_missed
         )
@@ -50,7 +50,7 @@ val calls = mutableListOf<Call>().apply {
     add(
         Call(
             "Tom Hiddleston",
-            "https://example.com/tom_hiddleston.jpg",
+            "https://cdn.britannica.com/12/215012-050-19D71F2D/English-actor-Tom-Hiddleston-2018.jpg",
             "18/04/20",
             R.drawable.ic_down_incoming
         )
@@ -58,7 +58,7 @@ val calls = mutableListOf<Call>().apply {
     add(
         Call(
             "Jeremy Renner",
-            "https://example.com/jeremy_renner.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYyn1lJfbthRuk54dIE7_HetcqXRIzOH3xpQ&s",
             "10/04/20",
             R.drawable.ic_down_incoming
         )
@@ -117,7 +117,7 @@ val chatsList = mutableListOf<Chat>().apply {
     add(
         Chat(
             "Chris Hemsworth",
-            "https://example.com/chris_hemsworth.jpg",
+            "https://media.gqmagazine.fr/photos/665488d44c7a6d119fc49211/1:1/w_1600%2Cc_limit/HemsworthFuriosa.jpg",
             "Hey there! How's it going?",
             "Yesterday",
             "0"
@@ -126,7 +126,7 @@ val chatsList = mutableListOf<Chat>().apply {
     add(
         Chat(
             "Robert Downey Jr.",
-            "https://example.com/robert_downey.jpg",
+            "https://cdn.britannica.com/99/254199-050-98CF4E04/Robert-Downey-JR-UK-premier-Oppenheimer-movie-July-2023.jpg",
             "Looking forward to our next project!",
             "Friday",
             "0"
@@ -135,7 +135,7 @@ val chatsList = mutableListOf<Chat>().apply {
     add(
         Chat(
             "Scarlett Johansson",
-            "https://example.com/scarlett_johansson.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%2C_2%29.jpg/800px-Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%2C_2%29.jpg",
             "Can we reschedule our meeting?",
             "Thursday",
             "2"
@@ -144,7 +144,7 @@ val chatsList = mutableListOf<Chat>().apply {
     add(
         Chat(
             "Mark Ruffalo",
-            "https://example.com/mark_ruffalo.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaR6CiG2r9ZR0JuXvA_bUnwlnoRhb7AIR6Dw&s",
             "Let's catch up soon!",
             "Monday",
             "5"
@@ -153,7 +153,7 @@ val chatsList = mutableListOf<Chat>().apply {
     add(
         Chat(
             "Chris Evans",
-            "https://example.com/chris_evans.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/ChrisEvans2023.jpg/800px-ChrisEvans2023.jpg",
             "Sent you the files.",
             "22/04/20",
             "6"
@@ -162,7 +162,7 @@ val chatsList = mutableListOf<Chat>().apply {
     add(
         Chat(
             "Tom Hiddleston",
-            "https://example.com/tom_hiddleston.jpg",
+            "https://media.vanityfair.com/photos/66050a8578f6c8e74b372ef6/master/w_2560%2Cc_limit/1398729436",
             "Are you free tomorrow?",
             "18/04/20",
             "7"
@@ -171,7 +171,7 @@ val chatsList = mutableListOf<Chat>().apply {
     add(
         Chat(
             "Jeremy Renner",
-            "https://example.com/jeremy_renner.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYyn1lJfbthRuk54dIE7_HetcqXRIzOH3xpQ&s",
             "Got your message.",
             "10/04/20",
             "1"
@@ -237,49 +237,49 @@ val statusList = mutableListOf<Status>().apply {
     add(
         Status(
             "Chris Hemsworth",
-            "https://example.com/chris_hemsworth.jpg",
+            "https://media.gqmagazine.fr/photos/665488d44c7a6d119fc49211/1:1/w_1600%2Cc_limit/HemsworthFuriosa.jpg",
             "Today, 5:00 pm"
         )
     )
     add(
         Status(
             "Robert Downey Jr.",
-            "https://example.com/robert_downey.jpg",
+            "https://cdn.britannica.com/99/254199-050-98CF4E04/Robert-Downey-JR-UK-premier-Oppenheimer-movie-July-2023.jpg",
             "Today, 9:00 am"
         )
     )
     add(
         Status(
             "Scarlett Johansson",
-            "https://example.com/scarlett_johansson.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%2C_2%29.jpg/800px-Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%2C_2%29.jpg",
             "Thursday"
         )
     )
     add(
         Status(
             "Mark Ruffalo",
-            "https://example.com/mark_ruffalo.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaR6CiG2r9ZR0JuXvA_bUnwlnoRhb7AIR6Dw&s",
             "Monday"
         )
     )
     add(
         Status(
             "Chris Evans",
-            "https://example.com/chris_evans.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/ChrisEvans2023.jpg/800px-ChrisEvans2023.jpg",
             "22/04/20"
         )
     )
     add(
         Status(
             "Tom Hiddleston",
-            "https://example.com/tom_hiddleston.jpg",
+            "https://media.vanityfair.com/photos/66050a8578f6c8e74b372ef6/master/w_2560%2Cc_limit/1398729436",
             "18/04/20"
         )
     )
     add(
         Status(
             "Jeremy Renner",
-            "https://example.com/jeremy_renner.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYyn1lJfbthRuk54dIE7_HetcqXRIzOH3xpQ&s",
             "10/04/20"
         )
     )

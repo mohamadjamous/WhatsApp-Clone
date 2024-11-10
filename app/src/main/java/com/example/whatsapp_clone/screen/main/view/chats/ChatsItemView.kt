@@ -34,6 +34,7 @@ fun ChatsItemView(chat: Chat, loadNextScreen: (User) -> Unit) {
         } + Modifier.padding(top = 4.dp, bottom = 4.dp)) {
         Row(modifier = Modifier.padding(10.dp)) {
             Box(shape = CircleShape, modifier = Modifier.size(40.dp)) {
+                println("ChatURL: ${chat.url}")
                 ImageLoader(chat.url)
             }
             Spacer(modifier = Modifier.preferredSize(12.dp))
